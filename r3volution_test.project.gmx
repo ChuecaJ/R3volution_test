@@ -12,12 +12,16 @@
     <sprite>sprites\sprHandLCatch</sprite>
     <sprite>sprites\sprHitboxHand</sprite>
     <sprite>sprites\sprScrewdriver</sprite>
+    <sprite>sprites\sprPlayer</sprite>
+    <sprite>sprites\sprMachineSelect</sprite>
+    <sprite>sprites\sprMachine</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\setBounds.gml</script>
     <script>scripts\inBounds.gml</script>
+    <script>scripts\moveToPointSmooth.gml</script>
     <script>scripts\moveToPoint.gml</script>
     <script>scripts\normVector.gml</script>
     <script>scripts\drawOrigin.gml</script>
@@ -29,6 +33,8 @@
   <objects name="objects">
     <object>objects\objManager</object>
     <object>objects\objHandParent</object>
+    <object>objects\objMachineParent</object>
+    <object>objects\objPlayer</object>
     <object>objects\objHitboxHand</object>
     <object>objects\objHandRight</object>
     <object>objects\objHandLeft</object>
